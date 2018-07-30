@@ -1,0 +1,22 @@
+{
+    "name": "michelangelomo/spaces-api",
+    "description": "Library for DigitalOcean Spaces",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "aws/aws-sdk-php": "^3.64",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Michelangelo",
+            "email": "michelangelo@morrillo.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Michelangelo\\Spaces\\": "src/"
+        }
+    }
+}
